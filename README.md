@@ -1,32 +1,48 @@
-# 📊 Superstore Sales Performance Analysis & Dashboard
+# 📊 Superstore Sales Performance Analysis
+
+An end-to-end Data Analytics project examining Superstore sales data to uncover business trends, evaluate profit margins, and measure the impact of discounting strategies using Python, SQL, and Power BI.
+
+---
 
 ## 📌 Project Overview
-Brief intro: Yeh project Superstore Sales dataset ka end-to-end analysis hai jisme Python se Data Cleaning, SQL se Querying, aur Power BI se Interactive Dashboard banaya gaya hai.
+This repository contains a full pipeline analysis of transactional sales data:
+1. **Data Cleaning & Exploratory Data Analysis (EDA)** performed in Python using Pandas and Seaborn.
+2. **Business Querying & Data Aggregation** executed in SQL (MySQL).
+3. **Interactive Visual Dashboard & Data Modeling** built in Power BI using custom DAX measures.
 
-## 🎯 Business Problem & Objectives
-- Sales Growth, Profit Margins aur Discounting Strategy ko analyze karna.
-- Underperforming categories aur regions ko identify karna.
-- Year-over-Year (YoY) performance tracking ke liye DAX metrics aur interactive visuals build karna.
+---
 
-## 🛠️ Tech Stack & Tools Used
-- **Python (Pandas, NumPy, Matplotlib/Seaborn):** Data Cleaning, Missing Value Imputation & Feature Engineering.
-- **SQL (MySQL):** Aggregations, Window Functions & Business Queries.
-- **Power BI:** Data Modeling, DAX Measures, Treemaps, Scatter Plots & Slicers.
+## 📊 Dashboard Preview
 
-## 🧹 Data Cleaning & Preprocessing (Python)
-- Missing values handle kiye gaye.
-- Dates (`Order_Date`, `Ship_Date`) ko standardize aur impute kiya gaya.
-- Metrics jaise `Profit_Margins_Percentage` aur `Discounted_Price` create kiye gaye.
+![Dashboard Overview](https://github.com/sanjanapatwa859-coder/Superstore-Sales-Performance-Analysis/blob/main/Superstore_Sales_Analysis_Dashboard_Image.png))
+*(Note: Replace `images/dashboard_overview.png` with your uploaded image path)*
 
-## 📊 Power BI Dashboard Screenshots
-![Dashboard Overview]([link_to_your_dashboard_screenshot.png](https://github.com/sanjanapatwa859-coder/Superstore-Sales-Performance-Analysis/blob/main/Superstore_Sales_Analysis_Dashboard_Image.png))
+---
 
-## 💡 Key Business Insights
-1. **Sales vs Profitability:** High discount rate se revenue toh badhta hai, lekin profit margin drop ho jata hai.
-2. **Category Insights:** Technology category ka profit margin sabse accha hai, jabki Furniture me discounts ke karan loss margins dikhte hain.
-3. **Regional Trends:** West Region sales aur profit dono me leading perform karta hai.
+## 🛠️ Tech Stack & Tools
+- **Language & Libraries:** Python (Pandas, NumPy, Matplotlib, Seaborn)
+- **Database:** MySQL Workbench
+- **Visualization:** Power BI Desktop (DAX, Interactive Slicers, Custom Tooltips)
+- **Version Control:** Git & GitHub
 
-## 🚀 How to Run / Reproduce
-1. Clone the repository.
-2. Run SQL script in MySQL Workbench.
-3. Open Power BI file (`.pbix`) to explore interactive visuals.
+---
+
+## 🔍 Key Business Insights
+- **Discounting Strategy vs. Profitability:** Higher discount rates drive sales volume but significantly erode profit margins.
+- **Category Performance:** The **Technology** category generates the highest profit margin, whereas **Furniture** faces negative margins due to steep discounts.
+- **Regional Trends:** The **West Region** leads in both total sales volume and overall net profit.
+- **YoY Growth:** Year-over-Year growth tracking highlights strong Q4 holiday seasonal surges.
+
+---
+
+## 📂 Repository Structure
+
+```text
+├── README.md                           <- Project overview and documentation
+├── requirements.txt                    <- Required Python packages
+├── Superstore_cleaned.csv              <- Processed dataset
+├── Superstore_Data_Analysis.ipynb      <- Python cleaning & EDA notebook
+├── Superstore_Sales_Analysis.sql       <- SQL queries for business analysis
+├── Superstore Sales Performance Dashboard.pbix <- Interactive Power BI file
+└── images/
+    └── dashboard_overview.png           <- Dashboard screenshots for README

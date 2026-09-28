@@ -14,9 +14,9 @@ This repository contains a full pipeline analysis of transactional sales data:
 
 ## 📊 Dashboard Preview
 
-![Dashboard Overview](https://github.com/sanjanapatwa859-coder/Superstore-Sales-Performance-Analysis/blob/main/Dashboard-%20Superstore_Sales_Analysis.jpeg)
+![Dashboard Overview]([https://github.com/sanjanapatwa859-coder/Superstore-Sales-Performance-Analysis/blob/main/Dashboard-%20Superstore_Sales_Analysis.jpeg)
 
----
+---](https://github.com/sanjanapatwa859-coder/Superstore-Sales-Performance-Analysis/blob/main/Dashboard-%20Superstore_Sales_Analysis.jpeg)
 
 ## 🛠️ Tech Stack & Tools
 - **Language & Libraries:** Python (Pandas, NumPy, Matplotlib, Seaborn)

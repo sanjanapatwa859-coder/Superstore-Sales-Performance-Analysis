@@ -15,7 +15,6 @@ This repository contains a full pipeline analysis of transactional sales data:
 ## 📊 Dashboard Preview
 
 ![Dashboard Overview](https://github.com/sanjanapatwa859-coder/Superstore-Sales-Performance-Analysis/blob/main/Superstore_Sales_Analysis_Dashboard_Image.png))
-*(Note: Replace `images/dashboard_overview.png` with your uploaded image path)*
 
 ---
 
